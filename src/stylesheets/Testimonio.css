@@ -12,6 +12,7 @@
 .imagen-testimonio {
     width: 50%;
     height: auto;
+    padding-left: 50px;
 }
 
 .contenedor.texto {
@@ -25,15 +26,19 @@
 
 .nombre-testimonio {
     font-size: 1.3rem;
+    padding-top: 20px;
 }
 
 .cargo-testimonio {
     font-size: 1.3rem;
-    margin-top: 15 px;
-    padding-bottom: 30px;
+    margin-top: 10px;
 }
 
 .texto-testimonio {
     font-size: 1.1rem;
     text-align: justify;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
 }

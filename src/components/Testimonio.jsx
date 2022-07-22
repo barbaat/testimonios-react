@@ -9,8 +9,8 @@ export default function Testimonio (props) {
             alt='Foto random' 
       />
       <div className='contenedor-texto'>
-        <p className='nombre-testimonio'>{props.name} en {props.country}</p>
-        <p className='cargo-testimonio'>{props.job}</p>
+        <div className='nombre-testimonio'>{props.name} en {props.country}</div>
+        <div className='cargo-testimonio'>{props.job}</div>
         <p className='texto-testimonio'>"{props.testimonio}"</p>
       </div>             
     </div>
